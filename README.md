@@ -2,7 +2,7 @@
 Creates and automatically compiles C++ programs from natural language input using GPT
 
 ## Setup
-
+* OpenAI API requires Numpy `v1.20.3` or higher, so if that's not the case then: `sudo pip install numpy --upgrade` 
 * Install openai python package: `pip install openai`.
 * [Generate a key](https://beta.openai.com/account/api-keys) for using openai API.
 * Store this key in a separate file.
